@@ -9,6 +9,9 @@ Omnifood is a premium food delivery service focused on providing healthy meals t
 - Convenient delivery scheduling
 - Mobile-first responsive design
 - Modern UI with smooth animations
+- Interactive meals section with hover effects
+- Meal categorization with tags (Vegetarian, Vegan, Paleo)
+- Detailed meal information with icons
 
 ## Technologies Used
 
