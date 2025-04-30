@@ -28,7 +28,12 @@
   Tints:#fdf2e9,#fae5d3
   Shades:
   Accents:
-  Greys:#555, #333
+  Greys:
+  #555,
+#333,
+#6f6f6f (lightest grey allowed on #fdf2e9)
+
+  ---- 06 IMAGES
 
 
   ---- 03 SHADOWS:

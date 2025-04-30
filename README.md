@@ -12,6 +12,8 @@ Omnifood is a premium food delivery service focused on providing healthy meals t
 - Interactive meals section with hover effects
 - Meal categorization with tags (Vegetarian, Vegan, Paleo)
 - Detailed meal information with icons
+- Customer testimonials with photos and quotes
+- Interactive food gallery with zoom effect on hover
 
 ## Technologies Used
 
@@ -20,6 +22,7 @@ Omnifood is a premium food delivery service focused on providing healthy meals t
   - Flexbox
   - CSS Grid
   - Modern CSS Properties
+  - Transitions and Animations
 - Google Fonts (Rubik)
 - Optimized Images
 
