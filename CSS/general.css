@@ -25,13 +25,15 @@
   ---- 02 COLORS
 
   Primary: #e67e22
-  Tints:#fdf2e9,#fae5d3
+  Tints:#fdf2e9,#fae5d3,#eb984e
   Shades:
   Accents:
   Greys:
+  #888,
   #555,
-#333,
-#6f6f6f (lightest grey allowed on #fdf2e9)
+  #333,
+  #6f6f6f (lightest grey allowed on #fdf2e9)
+  #767676 (lightest grey allowed on #fff)
 
   ---- 06 IMAGES
 
@@ -80,12 +82,25 @@ body {
   column-gap: 6.4rem;
   row-gap: 9.6rem;
 }
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
 }
 
 .grid--3-cols {
   grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .grid--center-v {
@@ -122,6 +137,20 @@ body {
   margin-bottom: 1.6rem;
   letter-spacing: 0.75px;
 }
+
+.btn.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn.btn--form:hover {
+  background-color: #fff;
+  color: #555;
+}
+
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -130,6 +159,9 @@ body {
   font-weight: 600;
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
+  /* Only for .btn */
+  border: none;
+  cursor: pointer;
 
   transition: all 1s;
 }
@@ -185,4 +217,30 @@ strong {
 
 li {
   list-style: none;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.list-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #e67e22;
+}
+
+*:focus {
+  outline: none;
+  /* outline: 4px dotted #e67e22; */
+  /* outline-offset: 8px; */
+  box-shadow: 0 0 0 0.8rem rgba(231, 127, 35, 0.5);
 }
