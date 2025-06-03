@@ -73,7 +73,7 @@ body {
 /* ************************** */
 /* General Component */
 .container {
-  max-width: 110rem;
+  max-width: 120rem;
   margin: 0 auto;
   padding: 0 3.2rem;
 }
@@ -230,6 +230,7 @@ li {
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  line-height: 1.2;
 }
 
 .list-icon {
