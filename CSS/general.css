@@ -63,12 +63,14 @@ html {
   /* 10px / 16px = 0.625 = 62.5% */
   /* percentage of user's browser fonst-size setting */
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 body {
   font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
+overflow-x: hidden;
 }
 /* ************************** */
 /* General Component */
@@ -245,3 +247,4 @@ li {
   /* outline-offset: 8px; */
   box-shadow: 0 0 0 0.8rem rgba(231, 127, 35, 0.5);
 }
+

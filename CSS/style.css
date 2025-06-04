@@ -29,6 +29,25 @@
 .main-nav-link.nav-cta:active {
   background-color: #cf711f;
 }
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
+
 /* ************************* */
 /* Header Component */
 .header {
@@ -40,6 +59,7 @@
   /* Because we want the header to be sticky later */
   height: 9.6rem;
   padding: 0 4.8rem;
+  position: relative;
 }
 .logo {
   height: 2.2rem;
@@ -128,8 +148,8 @@
 .section-how {
   padding: 9.6rem 0;
 }
-  .step-number {
-    font-size: 8.6rem;
+.step-number {
+  font-size: 8.6rem;
   font-weight: 600;
   color: #ddd;
   margin-bottom: 1.2rem;
@@ -577,3 +597,4 @@
 .footer-link:active {
   color: #555;
 }
+
