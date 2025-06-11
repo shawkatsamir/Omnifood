@@ -22,11 +22,13 @@
 
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a href="#" class="main-nav-link">How it works</a></li>
-          <li><a href="#" class="main-nav-link">Meals</a></li>
-          <li><a href="#" class="main-nav-link">Testimonilas</a></li>
-          <li><a href="#" class="main-nav-link">Pricing</a></li>
-          <li><a href="#" class="main-nav-link nav-cta">Try for free</a></li>
+          <li><a href="#how" class="main-nav-link">How it works</a></li>
+          <li><a href="#meals" class="main-nav-link">Meals</a></li>
+          <li>
+            <a href="#testimonials" class="main-nav-link">Testimonilas</a>
+          </li>
+          <li><a href="#pricing" class="main-nav-link">Pricing</a></li>
+          <li><a href="#cta" class="main-nav-link nav-cta">Try for free</a></li>
         </ul>
       </nav>
 
@@ -92,7 +94,7 @@
           </div>
         </div>
       </section>
-      <section class="section-how">
+      <section class="section-how" id="how">
         <div class="container">
           <span class="subheading">How it works</span>
           <h2 class="heading-secondary">
@@ -153,7 +155,7 @@
           </div>
         </div>
       </section>
-      <section class="section-meals">
+      <section class="section-meals" id="meals">
         <div class="container">
           <span class="subheading">Meals</span>
           <h2 class="heading-secondary">
@@ -267,7 +269,7 @@
         </div>
       </section>
 
-      <section class="section-testimonials">
+      <section class="section-testimonials" id="testimonials">
         <div class="testimonials-container">
           <span class="subheading">Testimonials</span>
           <h2 class="heading-secondary">Once you try it, you can't go back.</h2>
@@ -402,7 +404,7 @@
         </div>
       </section>
 
-      <section class="section-pricing">
+      <section class="section-pricing" id="pricing">
         <div class="container">
           <span class="subheading">Pricing</span>
           <h2 class="heading-secondary">
@@ -512,7 +514,7 @@
         </div>
       </section>
 
-      <section class="section-cta">
+      <section class="section-cta" id="cta">
         <div class="container">
           <div class="cta">
             <div class="cta-text-box">
@@ -572,7 +574,7 @@
     <footer class="footer">
       <div class="container grid grid--footer">
         <div class="logo-col">
-          <a href="#" class="footer-logo">
+          <a href="#he" class="footer-logo">
             <img class="logo" src="img/omnifood-logo.png" alt="Omnifood logo" />
           </a>
           <ul class="social-links">
@@ -593,7 +595,8 @@
             </li>
           </ul>
           <p class="copyright">
-            Copyright &copy; 2027 by Omnifood, Inc. All right reserved
+            Copyright &copy; <span class="year">2027</span> by Omnifood, Inc.
+            All right reserved
           </p>
         </div>
         <div class="address-col">
@@ -648,6 +651,6 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
-    <script src="script.js"></script>
+    <script defer src="js/script.js"></script>
   </body>
 </html>
